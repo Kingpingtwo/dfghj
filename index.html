@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="form js-speaker-form">
+      <div class="form-fieled">
+        <label for="name">І'мя</label>
+        <input type="text" name="user-name" id="name" placeholder="Лев" />
+      </div>
+
+      <div class="form-fieled">
+        <label for="tel">Телефон</label>
+        <input type="tel" name="tel" id="tel" placeholder="+380 00-00-000" />
+      </div>
+
+      <div class="form-fieled">
+        <label for="email">Пошта</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="name@gmail.com"
+        />
+      </div>
+
+      <div role="group">
+        <h2 class="group-title">Тема для доповіді</h2>
+        <ul class="topic-options">
+          <li>
+            <label for="html">HTML</label>
+            <input type="checkbox" value="html" name="topic" id="html" />
+          </li>
+          <li>
+            <label for="css">CSS</label>
+            <input type="checkbox" value="css" name="topic" id="css" />
+          </li>
+          <li>
+            <label for="">JS</label>
+            <input type="checkbox" value="js" name="topic" id="js" />
+          </li>
+        </ul>
+      </div>
+
+      <div role="group" class="group">
+        <h2 class="group-title">Рівень експертизи</h2>
+        <ul class="expirience-optios">
+          <li>
+            <input type="radio" name="expirience" value="junior" id="junior" />
+            <label for="junior">Junior</label>
+          </li>
+          <li>
+            <input type="radio" name="expirience" value="middle" id="middle" />
+            <label for="middle">Middle</label>
+          </li>
+          <li>
+            <input type="radio" name="expirience" value="senior" id="senior" />
+            <label for="senior">Senior</label>
+          </li>
+        </ul>
+      </div>
+
+      <label for="date">Дата і час доповіді</label>
+      <input
+        type="datetime-local"
+        name="date"
+        id="date"
+        min="2022-12-04T12:30"
+        max="2022-31-04T17:30"
+      />
+      <br />
+      <label for="pdf">Завантажити презентацію</label>
+      <input type="file" name="pdf" id="pdf" />
+
+      <br />
+      <label for="coment">Залишити коментар</label>
+      <textarea
+        name="coment"
+        id="coment"
+        rows="10"
+        placeholder="Уточніть деталі доповіді"
+      ></textarea>
+      <br />
+      <input type="checkbox" name="policy" id="policy" />
+      <label for="policy">Погоджуюсь</label>
+      <br />
+      <button type="submit">Залишити заявку</button>
+      <div class="subscribers">
+        <a
+          class="click"
+          href="https://static.wikia.nocookie.net/blue-tractor/images/9/97/Babayka.jpg/revision/latest?cb=20201019111102&path-prefix=ru"
+          >Підписатися</a
+        >
+        <?xml version="1.0" encoding="iso-8859-1"?>
+        <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+        <svg
+          class="svg"
+          version="1.1"
+          id="Layer_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 511.999 511.999"
+          style="enable-background: new 0 0 511.999 511.999"
+          xml:space="preserve"
+        >
+          <path
+            style="fill: #c3c3c7"
+            d="M165.323,267.452L395.89,125.446c4.144-2.545,8.407,3.058,4.849,6.359L210.454,308.684
+	c-6.688,6.226-11.003,14.558-12.225,23.602l-6.482,48.036c-0.858,6.414-9.868,7.05-11.638,0.843l-24.929-87.595
+	C152.325,283.578,156.486,272.907,165.323,267.452z"
+          />
+          <path
+            style="fill: #dedee0"
+            d="M9.043,246.86l117.975,44.032l45.664,146.854c2.922,9.405,14.423,12.882,22.057,6.641l65.761-53.61
+	c6.893-5.617,16.712-5.897,23.916-0.667l118.61,86.113c8.166,5.936,19.736,1.461,21.784-8.407l86.888-417.947
+	c2.236-10.779-8.356-19.772-18.62-15.802L8.905,220.845C-3.043,225.453-2.939,242.369,9.043,246.86z M165.323,267.452
+	L395.89,125.446c4.144-2.545,8.407,3.058,4.849,6.359L210.454,308.684c-6.688,6.226-11.003,14.558-12.225,23.602l-6.482,48.036
+	c-0.858,6.414-9.868,7.05-11.638,0.843l-24.929-87.595C152.325,283.578,156.486,272.907,165.323,267.452z"
+          />
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+        </svg>
+      </div>
+    </form>
+  </body>
+</html>
